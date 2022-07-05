@@ -50,5 +50,3 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 killport() { lsof -i tcp:$1 | awk 'NR!=1 {print $2}' | xargs kill ; }
-export OPENAI_API_KEY="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"
-. "$HOME/.cargo/env"
